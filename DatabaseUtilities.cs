@@ -93,7 +93,7 @@ namespace Pandora_Product_Inventory_System
                                               +"StaffIdNo INT,"
                                               +"TransactionDetails DATETIME,"
                                               +"PaymentMethod CHAR(1),"
-                                              +"PRIMARY KEY(TransactionIdNo)"
+                                              +"PRIMARY KEY(TransactionIdNo),"
                                               +")";
             ExecuteSqlNonQuery(_sSqlString);
 
